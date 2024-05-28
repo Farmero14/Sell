@@ -25,4 +25,5 @@ class Sell extends PluginBase {
             Server::getInstance()->getPluginManager()->disablePlugin($this);
             return;
         }
+    }
 }
