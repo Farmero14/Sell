@@ -6,8 +6,8 @@ namespace Farmero\sell;
 
 use pocketmine\plugin\PluginBase;
 
-use Terpz710\Sell\Commands\SellCommand;
-use Terpz710\Sell\Commands\SellAllCommand;
+use Farmero\sell\Commands\SellCommand;
+use Farmero\sell\Commands\SellAllCommand;
 
 class Sell extends PluginBase {
 
