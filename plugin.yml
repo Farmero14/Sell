@@ -1,0 +1,11 @@
+name: Sell
+version: 1.0.0
+author: Farmero
+api: 5.0.0
+main: Farmero\sell\Sell
+
+permissions:
+  sell.cmd.sell:
+    default: true
+  sell.cmd.sellall:
+    default: true

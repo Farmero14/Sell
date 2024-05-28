@@ -1,0 +1,15 @@
+# Requires "MoneySystem" for the economy
+
+items:
+  - id: "diamond"
+    price: 10
+  - id: "gold_ingot"
+    price: 5
+  - id: "iron_ingot"
+    price: 2
+  - id: "emerald"
+    price: 15
+  - id: "redstone"
+    price: 1
+  - id: "coal"
+    price: 1
