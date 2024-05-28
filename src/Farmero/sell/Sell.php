@@ -19,7 +19,7 @@ class Sell extends PluginBase {
 	    new SellCommand($this),
 	    new SellAllCommand($this)
 	    ]);
-        }
+	    
 	if (Server::getInstance()->getPluginManager()->getPlugin("MoneySystem") === null) {
             $this->getLogger()->info("Disabling Sell, MoneySystem not found... Please make sure to have it installed before trying again!");
             Server::getInstance()->getPluginManager()->disablePlugin($this);
