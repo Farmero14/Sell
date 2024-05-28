@@ -21,7 +21,7 @@ class SellCommand extends Command implements PluginOwned {
 
     private $plugin;
     private $itemsConfig;
-    private $moneyManager;
+    private $money;
 
     public function __construct(Sell $plugin) {
         parent::__construct("sell", "Sell the item you are holding");
