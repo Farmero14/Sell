@@ -5,4 +5,7 @@ branches:
 projects:
   Sell:
     path: ""
+    libs:
+      - src: Farmero14/MoneySystem/MoneySystem
+        version: ^1.0.0
 ...
