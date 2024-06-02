@@ -5,6 +5,4 @@ branches:
 projects:
   Sell:
     path: ""
-    lint:
-      phpstan: false
 ...
